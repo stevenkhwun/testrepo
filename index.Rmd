@@ -16,4 +16,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 * [Machine Learning for Official Statistics](https://stevenkhwun.github.io/Test/Books/Official_Statistics/ML_for_Official-Statistics.pdf), PDF version, by _United Nations Economic Commission For Europe, United Nations_. (2021)
 
+* Notes
 
+1. Official Statistics which will be seasonally adjusted:
+   * [value and volume of total retail sales](https://gia.info.gov.hk/general/202605/06/P2026050600288_541857_1_1778042057925.pdf)
+
+    The seasonally adjusted series is compiled by the X-12 ARIMA method. The X-12 ARIMA method and its related versions are the standard method commonly employed in compiling seasonally adjusted statistical data series.
+    See also [Systematic Approach to Seasonal Adjustment of Time Series Data: Methods and Example](https://www.statistics.gov.hk/wsc/CPS008-P3-S.pdf).
