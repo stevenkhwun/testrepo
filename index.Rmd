@@ -1,5 +1,5 @@
 ---
-title: "Online Books"
+title: "Official Statistics"
 author: "SW"
 date: Last updated on `r Sys.Date()`
 output: html_document
@@ -9,34 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Applied Statistics
 
-* [Practical Statistics for Data Scientists: 50+ Essential Concepts Using R and Python](https://stevenkhwun.github.io/Test/Books/Applied_Statistics/Practical-Statistics/PracticalStatisticsforDataScientists.pdf), PDF version, by _Peter Bruce, Andrew Bruce, and Peter Gedeck_. (2nd Edition, 2020)
-  * My Notebooks:
-    * [Chapter 1: Exploratory Data Analysis](https://stevenkhwun.github.io/Test/Books/Applied_Statistics/Practical-Statistics/01_Exploratory-Data-Analysis.html)
-    * [Chapter 1: Old version](https://stevenkhwun.github.io/Test/Books/Applied_Statistics/Practical-Statistics/Old_Stuff/01_ExploratoryDataAnalysis.html)<br><br>
-
-* [Applied Statistics with Python Volume I: Introductory Statistics and Regression](https://stevenkhwun.github.io/Test/Books/Applied_Statistics/Kaganovskiy_Applied-Statistics-with-Python.pdf), PDF version, by _Leon Kaganovskiy_. (1st Edition, 2025)
-
-* [Applied Univariate, Bivariate, and Multivariate Statistics Using Python](https://stevenkhwun.github.io/Test/Books/Applied_Statistics/Denis_Applied-Statistics-Using-Python.pdf), PDF version, by _Daniel J. Denis_. (2021)
-
-* [Applied Univariate, Bivariate, and Multivariate Statistics: Understanding Statistics for Social and Natural Scientists, with Applications in SPSS and R](https://stevenkhwun.github.io/Test/Books/Applied_Statistics/Denis_Applied-Statistics-with-Applications-in-SPSS-and-R.pdf), PDF version, by _Daniel J. Denis_. (2nd Edition, 2021)
-
-
-* [Modern Statistics with R: From wrangling and exploring data to inference and predictive modelling](https://www.modernstatisticswithr.com/), Web Version, by _Måns Thulin_. (2nd Edition, March 2025)
-
-
-## Machine Learning
-
-
-* [An Introduction to Statistical Learning with Applications in Python](https://stevenkhwun.github.io/Test/Books/Machine_Learning/ISLP_website-compressed.pdf), PDF version, by _Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani and Jonathan Taylor_. Printed on 5 July 2023.
-
-  
-## Mathematics
-
-* [Solving Mathematical Problems: A Personal Perspective](https://stevenkhwun.github.io/Test/Books/Mathematics/solving-mathematical-problems-terence-tao.pdf), PDF version, by _Terence Tao_. (2nd Edition, 2006)
-
-  Personal website of the author can be found at https://terrytao.wordpress.com/.
 
 
 ## Official Statistics
@@ -44,105 +17,3 @@ knitr::opts_chunk$set(echo = TRUE)
 * [Machine Learning for Official Statistics](https://stevenkhwun.github.io/Test/Books/Official_Statistics/ML_for_Official-Statistics.pdf), PDF version, by _United Nations Economic Commission For Europe, United Nations_. (2021)
 
 
-## Probability Theory
-
-* [Introduction to Probability](http://probabilitybook.net), Web version, by _Joseph K. Blitzstein and Jessica Hwang_. (2nd Edition, 2019)
-
-
-## Python
-
-* [Python for Data Analysis: Data Wrangling with pandas, NumPy, and Jupyter](https://wesmckinney.com/book/), Web version, by _Wes McKinney_. (3rd Edition, September 2022)
-
-* [Python for Excel: A Modern Environment for Automation and Data Analysis](https://stevenkhwun.github.io/Test/Books/Python/Python-for-Excel.pdf), PDF version, by _Felix Zumstein_. (1st Edition, March 2021)
-  
-  The GitHub site of the book can be found [here](https://github.com/fzumstein/python-for-excel).
-  
-* [Python Primer](https://nbviewer.org/github/stevenkhwun/Test/blob/main/Python_Primer.ipynb)
-
-
-## R
-
-* [R for Data Science: Import, Tidy, Transform, Visualize, and Model Data](https://r4ds.hadley.nz/), Web version, by _Hadley Wickham, Mine Cetinkaya-Rundel, and Garrett Grolemund_. (2nd Edition, July 2023)
-
-  * The solutions to the exercises of the book can be found [here](https://mine-cetinkaya-rundel.github.io/r4ds-solutions/). 
-<br>
-<br>
-* [Introduction to Data Science: Data Wrangling and Visualization with R](https://rafalab.dfci.harvard.edu/dsbook-part-1/), Web version, by _Rafael A. Irizarry_. (2nd Edition)
-<br>
-<br>
-* [Introduction to Data Science: Statistics and Prediction Algorithms Through Case Studies](https://rafalab.dfci.harvard.edu/dsbook-part-2/), Web version, by _Rafael A. Irizarry_. (2nd Edition)
-<br>
-<br>
-
-* [fasteR: Fast Lane to Learning R!](https://github.com/matloff/fasteR), Web version, by _Norm Matloff_.
-<br>
-<br>
-
-* [Modern Data Science with R](https://mdsr-book.github.io/mdsr3e/), Web version, by _Benjamin S. Baumer, Daniel T. Kaplan, and Nicholas J. Horton_. (3rd Edition (in progress), July 2024)<br>
-  * The 2nd edition of the book can be found [here](https://mdsr-book.github.io/mdsr2e/)
-<br>
-<br>
-* [R techniques by Yufei Qin of Princeton University](https://libguides.princeton.edu/prf.php?id=61080a78-7cdb-11ed-9922-0ad758b798c3)<br>
-  * [Using Stargazer to make publication-quality tables](https://libguides.princeton.edu/R-stargazer)
-  * [Time-Series Analysis in R: Event study](https://libguides.princeton.edu/R-Timeseries)
-  * [Reshape in R: Long/Wide format](https://libguides.princeton.edu/R-reshape)
-  * [Missing Data Imputation in R](https://libguides.princeton.edu/R-Missingdata)
-  * [Merge/Append in R: including fuzzy merge](https://libguides.princeton.edu/R-merge)
-  * [Loop in R: regress on multiple csv](https://libguides.princeton.edu/R-loop)
-  * [Logit, Ordered Logit, and Multinomial Logit Models in R](https://libguides.princeton.edu/R-logit)
-  * [Linear regression in R](https://libguides.princeton.edu/R-linear_regression)
-  * [DID in R: Differences-in-Differences R tutorial](https://libguides.princeton.edu/R-DID)
-  * [Descriptive Statistics in R](https://libguides.princeton.edu/R-Descriptive)
-  * [Data Visualization in R](https://libguides.princeton.edu/R-Visualization)
-  * [Cubic Interpolation in R](https://libguides.princeton.edu/R-Cubic)
-
-
-
-## Jupyter Notebook for Machine Learning using Python
-
-#### _Linear and Logistic Regression_
-
-* [Simple Linear Regression](https://nbviewer.org/github/stevenkhwun/Machine_Learning_with_Python/blob/main/Simple-Linear-Regression.ipynb)
-
-* [Multiple Linear Regression](https://nbviewer.org/github/stevenkhwun/Machine_Learning_with_Python/blob/main/MLR.ipynb)
-
-* [Logistic Regression](https://nbviewer.org/github/stevenkhwun/Machine_Learning_with_Python/blob/main/Logistic.ipynb)
-
-* [**Cheat Sheet: Linear and Logistic Regression**](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL3BWam5EcGZuOFN5ZVZuZmV1QTAzSlEvTTJMMyUyMENoZWF0c2hlZXQtVjIubWQ_dD0xNzQ2MTI3NDI5IiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoyNTI0NjcsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3Njk3MjI3fQ.EZycV2hoZEIcAE6y0dy6h-Cf899Ixw3kxYpla3LKbgc)
-
-#### _Supervised Learning Models_
-
-* [Multi-class Classification](https://nbviewer.org/github/stevenkhwun/Machine_Learning_with_Python/blob/main/Multi-class_Classification.ipynb)
-  
-
-* [Decision Trees](https://nbviewer.org/github/stevenkhwun/Machine_Learning_with_Python/blob/main/Decision_trees.ipynb)
-
-
-* [Regression Trees](https://nbviewer.org/github/stevenkhwun/Machine_Learning_with_Python/blob/main/Regression_Trees_Taxi_Tip.ipynb)
-
-
-#### _Other Supervised Learning Models_
-
-* [Decision Tree and Support Vector Machine](https://nbviewer.org/github/stevenkhwun/Machine_Learning_with_Python/blob/main/decision_tree_svm_ccFraud.ipynb)
-
-* [K-Nearest Neighbors Classifier](https://nbviewer.org/github/stevenkhwun/Machine_Learning_with_Python/blob/main/KNN_Classification.ipynb)
-
-* [Comparing Random Forest and XGBoost modeling performance](https://nbviewer.org/github/stevenkhwun/Machine_Learning_with_Python/blob/main/Random_%20Forests%20_XGBoost.ipynb)
-
-* [**Cheat Sheet: Building Supervised Learning Models**](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL05RZmhxbEFLN1Uxb2RnemVNWlI3N2cvTW9kdWxlJTIwMyUyMGNoZWF0JTIwc2hlZXQtVjIubWQ_dD0xNzQ2MTI3NTMxIiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhdGxhc19maWxlX2lkIjoyNTI1MDEsImFkbWluIjpmYWxzZSwiaWF0IjoxNzU3Njk3MjI4fQ.-Q0bZWPRJVWw_W8gx3JCUKIvg7ra7ak14aoxUd3UqKo)
-
-
-#### _Unsupervised Learning Models_
-
-* Clustering<br>
-  * [K-means Clustering](https://nbviewer.org/github/stevenkhwun/Machine_Learning_with_Python/blob/main/K-Means-Customer-Seg.ipynb)
-  * [Comparing DBSCAN and HDBSCAN clustering](https://nbviewer.org/github/stevenkhwun/Machine_Learning_with_Python/blob/main/Comparing_DBScan_HDBScan.ipynb)
-  
-* Dimension Reduction & Feature Engineering<br>
-  * [Principal Component Analysis]()
-  * [t-SNE and UMAP]()
-  
-
-## Jupyter Notebook tricks
-
-* [Jupyter Notebook tricks](https://nbviewer.org/github/stevenkhwun/gitABC/blob/main/jpynb_Tricks.ipynb)
