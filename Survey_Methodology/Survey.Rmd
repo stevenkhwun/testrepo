@@ -1,5 +1,5 @@
 ---
-title: "Official Statistics"
+title: "Survey Methodology"
 author: "SW"
 date: Last updated on `r Sys.Date()`
 output: html_document
@@ -10,24 +10,27 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-# This website contains materials for Official Statistics
+# Survey Methodology
 
-## Official Statistics
-
-* [Machine Learning for Official Statistics](https://stevenkhwun.github.io/Test/Books/Official_Statistics/ML_for_Official-Statistics.pdf), PDF version, by _United Nations Economic Commission For Europe, United Nations_. (2021)
-
-* Notes
-
-1. Official Statistics which will be seasonally adjusted:
-   * [value and volume of total retail sales](https://gia.info.gov.hk/general/202605/06/P2026050600288_541857_1_1778042057925.pdf)
-
-    The seasonally adjusted series is compiled by the X-12 ARIMA method. The X-12 ARIMA method and its related versions are the standard method commonly employed in compiling seasonally adjusted statistical data series.
-    See also [Systematic Approach to Seasonal Adjustment of Time Series Data: Methods and Example](https://www.statistics.gov.hk/wsc/CPS008-P3-S.pdf).
-    
-    
-## Survey Methodology
-
-* [Thematic Household Survey Report No. 84 - Explanatory Notes](https://stevenkhwun.github.io/testrepo/Survey_Methodology/THS84_Explanatory Notes.pdf)
+* Here is a sample of survey methodology: [Thematic Household Survey Report No. 84 - Explanatory Notes](https://stevenkhwun.github.io/testrepo/Survey_Methodology/THS84_Explanatory Notes.pdf)
 
 * Key terms
   * [Coefficient of variation](https://en.wikipedia.org/wiki/Coefficient_of_variation)
+  
+  * [Standard deviation vs standard error](https://library.soton.ac.uk/variance-standard-deviation-and-standard-error#:~:text=Standard%20deviation%20is%20used%20to,using%20software%20than%20by%20hand.)
+
+```{r}
+# To calculate the variance and standard deviation of the above dataset in R, we can create
+# a variable for the data and then calculate the variance and standard deviation with the 
+# 'var' and 'sd' functions respectively:
+dataset <- c(7, 12, 5, 18, 5, 9, 10, 9, 12, 8, 12, 16)
+var(dataset)
+sd(dataset)
+```
+
+```{r}
+# To find the standard error, you can define your own function to be simply the standard
+# deviation divided by the square root of n and apply that function to the dataset:
+standard.error <- function(x) sd(x)/sqrt(length(x))
+standard.error(dataset)
+```
