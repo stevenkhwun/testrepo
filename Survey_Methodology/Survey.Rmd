@@ -23,3 +23,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
     The seasonally adjusted series is compiled by the X-12 ARIMA method. The X-12 ARIMA method and its related versions are the standard method commonly employed in compiling seasonally adjusted statistical data series.
     See also [Systematic Approach to Seasonal Adjustment of Time Series Data: Methods and Example](https://www.statistics.gov.hk/wsc/CPS008-P3-S.pdf).
+    
+    
+## Survey Methodology
+
+* [Thematic Household Survey Report No. 84 - Explanatory Notes](https://stevenkhwun.github.io/testrepo/Survey_Methodology/THS84_Explanatory Notes.pdf)
