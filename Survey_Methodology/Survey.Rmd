@@ -34,3 +34,19 @@ sd(dataset)
 standard.error <- function(x) sd(x)/sqrt(length(x))
 standard.error(dataset)
 ```
+
+# Sampling Methods
+
+## Simple Random Sample
+
+A simple random sample is chosen by a process that selects a sample of $n$ objects from a population in such a way that each member of the population has the same probability of being selected, the selection of one member is independent of the selection of any other member, and every possible sample of a given size, $n$, has the same probability of selection.
+
+## Sampling distribution
+
+The population mean $\mu$, is a fixed (but unknown) number. We make inferences about this attribute by drawing a random sample from the population and computing the sample mean. For each sample we draw, there will be a different sample mean, and the sample mean can be regarded as a random variable with a probability distribution. The distribution of
+possible sample means provides a basis for inferential statements about the sample.
+
+### Definition
+
+Consider a random sample selected from a population that is used to make an inference about some population characteristic, such as the population mean, $\mu$, using a sample statistic, such as the sample mean, $\bar{x}$. We realize that every sample has different observed values and, hence, different sample means. The sampling distribution of the sample mean is the probability distribution of the sample means obtained from all possible samples of the same number of observations drawn from the population.
+
